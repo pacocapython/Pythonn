@@ -1,0 +1,28 @@
+n = str(input("Digite seu nome: "))
+i = int(input("Digite sua idade: "))
+m = int(input("Digite o mês que você nasceu(1 a 12): "))
+
+if m == 1:
+   print("Seu signo é capricórnio")
+elif m == 2:
+   print("Seu signo é aquário")
+elif m == 3:
+   print("Seu signo é peixes")
+elif m == 4:
+   print("Seu signo é áries")
+elif m == 5:
+   print("Seu signo é touro")
+elif m == 6:
+   print("Seu signo é gemêos")
+elif m == 7:
+   print("Seu signo é cancêr")
+elif m == 8:
+   print("Seu signo é leão")
+elif m == 9:
+   print("Seu signo é virgem")
+elif m == 10:
+   print("Seu signo é libra")
+elif m == 11:
+   print("Seu signo é escorpião")
+elif m == 12:
+   print("Seu signo é sagitário")
