@@ -1,0 +1,13 @@
+m = int(input("Digite a quantidade de minutos utilizados: "))
+
+v = 50.00
+t = 100
+p = 2.00
+
+if m > t:
+    f = m - t
+    va = v + (f * p)
+else:
+    va = v
+
+print(f'Valor a pagar {va}')
