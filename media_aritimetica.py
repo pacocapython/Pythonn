@@ -1,0 +1,8 @@
+Nota1 = int(input("Digite o número: "))
+Nota2 = int(input("Digite o número: "))
+Nota3 = int(input("Digite o número: "))
+ME = int(input("Digite a média de exercicios: "))
+
+MA = (Nota1 + Nota2 * 2 + Nota3 * 3 + ME )/7
+
+print("A media aritmetica dos três números é", MA)
